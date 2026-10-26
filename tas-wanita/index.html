@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegance Bag | Katalog Tas Wanita</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <a href="#" class="logo">Elegance<span>Bag.</span></a>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#katalog">Katalog</a>
+            <a href="#tentang">Tentang</a>
+        </nav>
+
+        <div class="cart">
+            <span>🛍️</span>
+            Keranjang (<span id="jumlah-keranjang">0</span>)
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="subtitle">WOMEN'S BAG COLLECTION</p>
+            <h1>Tas Elegan untuk<br>Setiap Momen</h1>
+            <p>
+                Temukan koleksi tas wanita dengan gaya
+                modern, elegan, dan menawan.
+            </p>
+            <a href="#katalog" class="btn">Lihat Koleksi</a>
+        </div>
+    </section>
+
+    <!-- Katalog -->
+    <section class="catalog-section" id="katalog">
+        <div class="section-heading">
+            <p class="subtitle">OUR COLLECTION</p>
+            <h2>Katalog Tas Wanita</h2>
+            <p>Pilih tas favoritmu dari koleksi pilihan kami.</p>
+        </div>
+
+        <!-- Pencarian dan filter -->
+        <div class="filter-container">
+            <input
+                type="text"
+                id="pencarian"
+                placeholder="Cari nama tas..."
+                aria-label="Cari nama tas"
+            >
+
+            <select id="filter-merek" aria-label="Filter merek">
+                <option value="Semua">Semua Merek</option>
+                <option value="Dior">Dior</option>
+                <option value="LV">Louis Vuitton</option>
+                <option value="Prada">Prada</option>
+            </select>
+        </div>
+
+        <!-- Produk dari JavaScript -->
+        <div id="katalog-produk" class="product-grid"></div>
+    </section>
+
+    <!-- Tentang -->
+    <section class="about" id="tentang">
+        <p class="subtitle">ABOUT US</p>
+        <h2>Tentang Elegance Bag</h2>
+        <p>
+            Elegance Bag adalah katalog tas wanita yang
+            menampilkan berbagai inspirasi tas dengan
+            gaya klasik dan modern.
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Elegance Bag. Katalog Tas Wanita.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
